@@ -1,0 +1,14 @@
+#!/bin/bash
+set -e
+cd $(dirname $0)
+
+target="/usr/bin"
+filelist="install-list"
+if [ ! -f $filelist ]; then echo "ERROR: File \"$filelist\" not found.";exit 1; fi
+
+for i in $(cat $filelist);do
+  echo "Copying $i into $target"
+  sudo cp "$i" $target/
+done
+
+echo "Installation done."
