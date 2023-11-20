@@ -1,14 +1,14 @@
 # xopp-merge
 The python scripts merge multiple [Xournalpp](https://github.com/xournalpp/xournalpp)'s note file `*.xopp` into one.
 
-# Usage
+## Usage
 On most Linux distros, run `./install` to copy scripts to `/usr/bin/`, and run `./uninstall` to remove them.
 
 Then you can directly use these scripts in shell.
 
 `xopp-mergefolder` will merge `*.xopp` files in alphabetical order.
 
-# Known issues
+## Known issues
 The script `xopp-merge` seems to be broken.
 
 Similar as [this issue](https://github.com/xournalpp/xournalpp/issues/2474#issuecomment-1265735863).
@@ -28,7 +28,7 @@ And the author [said](https://github.com/xournalpp/xournalpp/issues/2474#issueco
 > 
 > I really appreciate your work and feedback btw.! I'll see what I can do with the "CLI/offline" solution (unless we want to wrap your solution in an electron app, making it nice, easy-to-use and user-friendly).
 
-# History
+## History
 It's originally created as <https://github.com/friciwolf/XournalppUtils>, and modified as <https://github.com/AyushmaanAggarwal/XournalppUtils>.
 
 For more info, see
