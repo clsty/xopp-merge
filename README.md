@@ -6,6 +6,8 @@ On most Linux distros, run `./install` to copy scripts to `/usr/bin/`, and run `
 
 Then you can directly use these scripts in shell.
 
+`xopp-mergefolder` will merge `*.xopp` files in alphabetical order.
+
 # Known issues
 The script `xopp-merge` seems to be broken.
 
